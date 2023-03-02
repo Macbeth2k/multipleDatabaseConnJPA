@@ -1,4 +1,4 @@
-package com.end.forth_project.entity;
+package com.end.forth_project.entity.token;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -10,6 +10,9 @@ import lombok.Setter;
 @Table(name = "token")
 public class Token {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private String token;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long token;
+
+    @Column(nullable = false)
+    private int content;
 }

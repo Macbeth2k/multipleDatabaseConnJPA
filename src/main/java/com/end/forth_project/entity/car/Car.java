@@ -1,4 +1,4 @@
-package com.end.forth_project.entity;
+package com.end.forth_project.entity.car;
 
 import jakarta.persistence.*;
 import lombok.Getter;

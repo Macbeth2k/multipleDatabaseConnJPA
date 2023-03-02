@@ -1,4 +1,4 @@
-package com.end.forth_project.entity.token;
+package com.end.forth_project.entity.token.repo;
 
 import com.end.forth_project.entity.token.Token;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package com.end.forth_project.entity.car;
+package com.end.forth_project.entity.car.repo;
 
 import com.end.forth_project.entity.car.Car;
 import org.springframework.data.jpa.repository.JpaRepository;
